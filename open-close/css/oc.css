@@ -1,0 +1,17 @@
+.closed{
+    display: none;
+}
+
+.open{
+    display: block;
+    background-color: gray;
+}
+
+button{
+    width: 150px;
+    background-color: #00ccee;
+}
+
+.demo {
+    background-color: gray;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Events</title>
+        <script src="js/ev.js"></script>
+        <link rel="stylesheet" href="css/oc.css">
+    </head>
+    <body onload="message('LOAD')" onresize="message('RESIZE')">
+        <h1>Javascript events - Responding to Events</h1>
+        <p onclick="message('CLICK')">
+            It is possible to call function based on Events
+        </p>
+        <p>
+            Click on the pearagraph above to triger an <em>Onlick</em> event. Relode the page to see an onload event
+        </p>
+
+        <p id="output"></p>
+
+        <h1>JavaScript Date function</h1>
+        <p id="demo">This is a paragraph</p>
+
+        <button type="button" onclick="displayDate()">Display Date</button>
+
+        <button onclick="document.getElementById('ind').innerHTML = 'Clicked first button';">First Button</button>
+
+        <button onclick="document.getElementById('ind').innerHTML = 'Clicked second button';">Second Button</button>
+
+        <p id="ind"></p>
+    </body>
+</html>
