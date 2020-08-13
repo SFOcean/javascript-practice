@@ -6,7 +6,7 @@ function upDate(element){
 
     /*1) change the url for the background image of the div with the id = "image" 
     to the source file of the preview image*/
-    img = element.src;
+    var img = element.src;
     document.getElementById('image').style.backgroundImage = "url('" +img+ "')";
 }
 
